@@ -1,0 +1,24 @@
+									!! TimerPy !!
+
+Description:-
+_____________
+
+	TimerPy is a simple but capable timer program made with Python. This program is great for tracking your workout schedule.
+
+Usage and Synopsis:-
+____________________
+
+	The program will ask for work time i.e the time for each set, then the time for interval between each set i.e rest time and the total number of sets. After you press "Enter" the program will count to 3 then will start the timer.
+
+	You can enter the work time, interval time and sets when asked for. The time entered must be in seconds.
+
+Design:-
+________
+
+	1) The program acquires work time and rest time.
+	2) The program will start after pressing "Enter".
+	3) The program will count to 3.
+	4) Then the first set begins.
+	5) After the completion of a set the program starts counting for rest time and then starts all over again untill all the sets are complete.
+
+						EVERYTHING IS POSSIBLE WITH PYTHON !!!!
