@@ -1,4 +1,5 @@
 import time
+import os
 
 class Methods():
 	
@@ -25,15 +26,18 @@ class Methods():
 	def setsCount(workTime, restTime, sets):
 
 		for set in range(sets):		# This function makes the function 
-									# calls for the workCount and 
-			second = 0				# restCount functions. It keeps 
-			print('\n WORK !!\n')	# record of the sets left.
+								# calls for the workCount and 
+			second = 0			# restCount functions. It keeps 
+			os.system('aplay whistle.wav')# record of the sets left.
+			print('\n WORK !!\n')	
 			Methods.workCount(workTime, second)
 
 			second = 0
+			os.system('aplay whistle.wav')
 			print('\n REST !!\n')
 			Methods.restCount(restTime, second)
 			
+			os.system('aplay whistle.wav')			
 			print('\n SET ' + str(set + 1) + ' COMPLETE !! \n')
 
 	
