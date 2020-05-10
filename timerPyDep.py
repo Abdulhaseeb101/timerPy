@@ -36,8 +36,7 @@ class Methods():
 			os.system('aplay whistle.wav')
 			print('\n REST !!\n')
 			Methods.restCount(restTime, second)
-			
-			os.system('aplay whistle.wav')			
+						
 			print('\n SET ' + str(set + 1) + ' COMPLETE !! \n')
 
-	
+		os.system('aplay whistle.wav')
